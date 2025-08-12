@@ -1,62 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>DreamStation - Small Business</title>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DreamStation - Small Business</title>
 
-    <link 
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-      rel="stylesheet"
-    >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
   <header>
-    <nav>
-      <h1>DreamStation</h1>
-      <div class="nav-buttons">
-        <button id="theme-btn">Dark Mode</button>
-        <a href="../index.html"><button>Back to Home</button></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+      <a class="navbar-brand" href="#">DreamStation</a>
+      <div class="ms-auto d-flex gap-2">
+        <button id="theme-btn" class="btn btn-outline-primary">Dark Mode</button>
+        <a href="index.html" class="btn btn-primary">Back to Home</a>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="logo-section">
+  <main class="container py-4">
+    <section class="logo-section mb-4">
       <h2>Logo</h2>
-      <img src="assets/dream-station.png" alt="DreamStation Logo">
+      <img src="assets/dream-station.png" alt="DreamStation Logo" class="img-fluid" />
     </section>
-    <section class="wireframe">
+
+    <section class="wireframe mb-4">
       <h2>Wireframe</h2>
-      <img src="assets/wireframe-1.png" alt="DreamStation Wireframe Page 1">
-      <img src="assets/wireframe-2.png" alt="DreamStation Wireframe Page 2">
-    </section>
-
-
-    <section class="color-palette">
-      <h2>Color Palette</h2>
-      <div class="palette">
-        <div style="background:#D3FAD6">Honeydew<br>#D3FAD6</div>
-        <div style="background:#63A6E0">Argent Blue<br>#63A6E0</div>
-        <div style="background:#0E4DB0;color:white;">Marian Blue<br>#0E4DB0</div>
-        <div style="background:#3C4BBD;color:white;">Glaucous<br>#3C4BBD</div>
-        <div style="background:#923C6F;color:white;">Vista Blue<br>#923C6F</div>
+      <div class="d-flex flex-wrap gap-3">
+        <img
+          src="assets/wireframe-1.png"
+          alt="DreamStation Wireframe Page 1"
+          class="img-thumbnail flex-fill"
+          style="max-width: 45%;"
+        />
+        <img
+          src="assets/wireframe-2.png"
+          alt="DreamStation Wireframe Page 2"
+          class="img-thumbnail flex-fill"
+          style="max-width: 45%;"
+        />
       </div>
-      <img src="assets/color-palette.png"
     </section>
 
+    <section class="color-palette mb-4">
+      <h2>Color Palette</h2>
+      <div class="d-flex gap-3 mb-3">
+        <div class="p-3 rounded text-center flex-fill" style="background: #D3FAD6">
+          Honeydew<br />#D3FAD6
+        </div>
+        <div class="p-3 rounded text-center flex-fill" style="background: #63A6E0">
+          Argent Blue<br />#63A6E0
+        </div>
+        <div
+          class="p-3 rounded text-center flex-fill text-white"
+          style="background: #0E4DB0"
+        >
+          Marian Blue<br />#0E4DB0
+        </div>
+        <div
+          class="p-3 rounded text-center flex-fill text-white"
+          style="background: #3C4BBD"
+        >
+          Glaucous<br />#3C4BBD
+        </div>
+        <div
+          class="p-3 rounded text-center flex-fill text-white"
+          style="background: #923C6F"
+        >
+          Vista Blue<br />#923C6F
+        </div>
+      </div>
+      <img src="assets/color-palette.png" alt="DreamStation Color Palette" class="img-fluid" />
+    </section>
+  </main>
 
-  <footer>
+  <footer class="bg-light text-center py-3">
     <p>&copy; 2025 DreamStation</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
   <script src="script.js"></script>
 </body>
