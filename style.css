@@ -99,13 +99,13 @@ section {
 
 .skills-list {
   display: flex;
-  gap: 20px; /* space between skills */
+  gap: 20px; 
   font-size: 1.2em;
   font-weight: bold;
 }
 
 .skills-list span {
-  background-color: #f0f0f0; /* light gray background */
+  background-color: #f0f0f0; 
   padding: 8px 14px;
   border-radius: 8px;
 }
@@ -182,7 +182,7 @@ footer {
   background-color: #0E4DB0; 
 }
 .wireframe img {
-  width: 45%;      /* Makes them smaller */
-  margin: 5px;     /* Adds space between */
-  border: 1px solid #ccc; /* Optional border */
+  width: 45%;      
+  margin: 5px;     
+  border: 1px solid #ccc; 
 }
